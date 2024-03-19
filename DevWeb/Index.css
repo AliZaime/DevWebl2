@@ -1,0 +1,55 @@
+h1{
+    color: blue;
+    font-size: 10px;
+}
+h1:hover{
+    color: bisque;
+    cursor: pointer;
+}
+p{
+    color: red;
+    font-size: 8px;
+}
+p:hover{
+    color: bisque;
+    cursor:grab;
+}
+span{
+    color: green;
+    font-size: 15px;
+}
+span:hover{
+    color: bisque;
+    cursor:copy;
+}
+img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+.flex1{
+    display: flex;
+    justify-content: space-between;
+}
+video{
+    width: 300px;
+    height: 300px;
+}
+.ul1{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+    list-style: none;
+}
+a{
+    list-style: none;
+    text-decoration: none;
+}
+.img123{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
